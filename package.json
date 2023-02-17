@@ -1,6 +1,6 @@
 {
   "name": "confirmation-modal-lib",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "A simple confirmation modal package for React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -8,6 +8,11 @@
     "@testing-library/user-event": "^13.5.0",
     "web-vitals": "^2.1.4"
   },
+  "keywords": [
+    "react",
+    "component-library",
+    "modal"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
@@ -18,7 +23,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "parser": "@typescript-eslint/parser"
   },
   "browserslist": {
     "production": [
@@ -34,10 +40,24 @@
   },
   "author": "Dwain06",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.20.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
-  "main": "dist/index.js",  "module": "dist/index.js",  "files": [ "dist", "README.md" ],  "repository": {    "type": "git",    "url": "https://github.com/Dwain06/confirmation-modal-lib"  }
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dwain06/confirmation-modal-lib"
+  }
 }
