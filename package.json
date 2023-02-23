@@ -1,6 +1,6 @@
 {
   "name": "confirmation-modal-lib",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A simple confirmation modal package for React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
