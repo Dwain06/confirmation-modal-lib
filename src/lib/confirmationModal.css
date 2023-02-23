@@ -8,13 +8,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    /* opacity: 0.2; */
     backdrop-filter: blur(2px);
 }
 
 .confirmation-modal__msg {
     padding: 20px 150px 20px 100px;
-    /* background: grey; */
     position: relative;
     display: flex;
     justify-content: center;
