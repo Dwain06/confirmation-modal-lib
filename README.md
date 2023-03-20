@@ -1,10 +1,14 @@
 # Confirmation-Modal-Lib
 
-Get a confirmation modal for React.
+Confirmation-Modal-Lib is a simple React component that allows you to add a customizable modal window to your React application. This component is :
 
 - Fully responsive
 - Light and simple
-- Add your own text
+- Customizable : add your own text and color
+
+## View demo
+
+[Application HRnet](https://dwain06.github.io/P14-appli-hrnet/)
 
 ## How to install
 
@@ -12,7 +16,7 @@ Get a confirmation modal for React.
 npm install confirmation-modal-lib
 ```
 
-## How to install
+## How to use
 
 - Import by adding `import { ConfirmationModal } from "confirmation-modal-lib"`.
 - Use by adding `<ConfirmationModal />`.
